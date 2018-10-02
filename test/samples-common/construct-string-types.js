@@ -33,7 +33,7 @@ module.exports = {
 
   multiline: 'hello\nworld\n',
   multilineChomp: 'hello\nworld',
-  multilineTrailingCR: 'hello\nworld\n\n\n\n\n',
+  multilineTrailingCR: 'hello\nworld\n\n\n\n',
   multilineTrailingSpace: 'hello\nworld    \nspace\n',
   multilineTrailingSpaceChomp: 'hello\nworld    \nspace',
 
@@ -41,14 +41,14 @@ module.exports = {
   longMultiBigSpaceChomp: 'x' + new Array(100).join(' ') + 'y\nworld',
 
   essayNoTrailing: essay,
-  essayManyTrailing: essay + '\n\n\n\n\n\n',
+  essayManyTrailing: essay + '\n\n\n\n\n',
   essayOneTrailing: essay + '\n',
 
   neggy: '-1',
   questy: '?asdf',
 
   // Example 8.1.
-  blockScalarHeader: [ 'literal\n', ' folded\n', 'keep\n\n', ' strip' ],
+  blockScalarHeader: [ 'literal\n', ' folded\n', 'keep\n', ' strip' ],
   // Example 8.2.
   // The ' \t' is a more-indented line as per [177] s-nb-spaced-text.
   blockIndentationIndicator: [
@@ -63,7 +63,7 @@ module.exports = {
     '  * bullet\n\n  * list\n  * lines\n\nlast line\n',
 
   longMultiChomp: new Array(80).join('lo hel') + '\nworld',
-  longMultiTrailingCR: new Array(80).join('lo hel') + '\nworld\n\n\n\n\n',
+  longMultiTrailingCR: new Array(80).join('lo hel') + '\nworld\n\n\n\n',
   longMulti: new Array(80).join('lo hel') + '\nworld\n'
 
 };

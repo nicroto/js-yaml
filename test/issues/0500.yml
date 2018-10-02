@@ -1,0 +1,10 @@
+test: |+
+  this should not end with a new line
+test2: this also
+test3: |+
+  this should end on a single new line
+  
+test4: |+
+  this should end on a double new line
+  
+  
